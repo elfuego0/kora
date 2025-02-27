@@ -179,9 +179,11 @@ Signs a transaction with the paymaster's key.
     "id": 1,
     "result": {
         "signature": "<base58-encoded-signature>",
-        "signed_transaction": "<base58-encoded-signed-transaction>"
+        "signed_transaction": "<base58-encoded-signed-transaction>",
+        "transaction_fee": "<base58-encoded-fee>"
     }
 }
+
 ```
 
 #### `signAndSend`
